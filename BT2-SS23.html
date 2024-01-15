@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>document</title>
+</head>
+<body>
+    <script>
+        let a=+prompt("Nhập số bất kì");
+        let result=1;
+        if (isNaN(a)||a<=0) {
+            console.log("INVALID");
+        }else{
+            for (let i = 1; i <= a; i++) {
+                result*=i;
+            }
+            console.log("kết quả của bài toán là",result);
+        }
+    </script>
+</body>
+</html>
