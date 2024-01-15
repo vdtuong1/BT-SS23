@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bt5</title>
+</head>
+<body>
+    <script>
+        let num=Math.floor(Math.random()*10);
+        let guessNum;
+        while(guessNum!=num){
+            guessNum=+prompt("Nhập số mà bạn đoán");
+            if (guessNum==num) {
+                alert("Bạn đã đoán đúng")
+            }else if(guessNum>num){
+                alert("Số đó bé hơn");
+            }else alert("Số đó lớn hơn");
+        }
+    </script>
+</body>
+</html>
